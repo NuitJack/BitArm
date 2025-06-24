@@ -11,7 +11,7 @@ Step by step on how to use this folder to compile RP's firmware
 
 This folder is building micropython v1.22.2 (editable within "setup_submodules.sh") with 4 modules written from [BitDogLab](https://github.com/BitDogLab/BitDogLab/tree/main/libs)'s project (ahtx0.py, bh1750.py, matriz_bdl.py and ssd1306.py) and 2 custom modules made to supply the needed comunication between the RP core and the Touch LCD display used (ili9341.py and tsc2046.py).
 
-You can also add your own python module with this pipeline!
+You can also add your own python module with the following steps:
 1. Add the file with your module inside "externals/libs" (the file's name will be the name of the module)
 2. Add the line `freeze("external/libs", "yourfilename.py")` at the end of "manifest.py"
 3. Run "build.sh" and change the firmware file for the newly built one
