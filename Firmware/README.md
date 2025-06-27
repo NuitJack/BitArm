@@ -1,5 +1,5 @@
 # Firmware compilation for RP Pico W integration with Touch LCD
-If you just want to run this project without recompiling it's firmware, just download "Firmware.uf2" and use it as instructed in the main README. The following text explains how it was compiled and how can you do it yourself.
+If you just want to run this project without recompiling it's firmware, just download "firmware.uf2" and use it as instructed in the main README. The following text explains how it was compiled and how can you do it yourself.
 
 ## How to use this folder to compile RP's firmware
 1. Clone this repository locally with `git clone https://github.com/NuitJack/BitArm.git`
