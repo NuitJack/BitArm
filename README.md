@@ -1,5 +1,5 @@
 # BitArm
-This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a (Touch LCD display) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the tong. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible.
+This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a (Touch LCD display) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the claw. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible.
 
 (Insert image and description)
 
@@ -16,6 +16,33 @@ BitArm/
 ```
 
 ## Full material list
+Main set of components:
+- 1x BitDogLab (insert specs)
+- 1x Touch LCD display (insert specs) with plastic pen
+- 1x ESP32-DevKitC-32 with CH340C USB-Serial converter
+- 1x 38-pin ESP32S NodeMCU expander. With support for USB-C and Micro USB
+- 1x 20000mAh/22.5W power bank with 5V output
+- 1x USB to USB-C cable
+- 3x MG90S motors (base and both joints)
+- 3x MG90S Horn
+- 1x SG90 motor (claw)
+- 1x SG90 Horn
+Arm Structure:
+- Structure made of PLA filament with 3D printing
+- 1x 608Zz bearing
+Screws and Nuts:
+- MG90S Motor Mounting
+  - 6x M2 X 20mm Flat Head Screws 
+  - 6x Nuts for M2 Screws
+- 8 sets of (1 for Claw, 6 for Joint Supports, 1 for Axis):
+  - 8x M2.5 X 20mm Pan Head Screws
+  - 8x Nuts for M2.4 Screws
+- Base
+  - 4x M4 x 10mm Screws with Superb Thread
+Display monting acessories:
+- 1x Protoboard (insert specs)
+- Set of jumpers (insert name and quantity
+- 1x 10k resistor for pull-up
 
 ## I have everything ready, how can I run this project?
 > Please note our code is built for running with BitDogLab's shield. Consider altering the needed code in main.py if you want to run this project on your own shield. From here onwards, we'll consider the usage of BitDogLab's shield and our main.py without any changes. 
@@ -46,7 +73,7 @@ BitArm/
 4. (Instructions regarding ESP)
 5. Turn on both ESP and RP sides and press the "A" button for starting the BLE connection process.
 6. Wait until the initialization ends. The BitDogLab's OLED display and RBG LED are visual feedbacks of the commands given, providing information on the BLE communication and the delay needed to send the next command (LED color changes)
-7. Each of the buttons changes the position 'state' of the arm, coding 8 different positions, and the opening and closing of the tong.
+7. Each of the buttons changes the position 'state' of the arm, coding 8 different positions, and the opening and closing of the claw.
 8. Long pressing the "Fechar" button ends the execution, shutting everything down. For running again, reset the RP, remove power from the ESP and go back to step 5.
 
 ## Final considerations
