@@ -8,10 +8,10 @@ This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webc
 ## Directory tree
 ```bash
 BitArm/
-├── Arm/		# Contains everything that was uploaded to our ESP32 in order to control the robotic arm via BLE sent commands coded unto individual chars
+├── Arm/	# Contains everything that was uploaded to our ESP32 in order to control the robotic arm via BLE sent commands coded unto individual chars
 ├── Firmware/	# Contains instructions on how to build a Firmware file onto RP Pico W already with custom drivers for the display's LCD and touch interfaces
 ├── Resources/	# All ilustrations used for this documentation
-├── main.py		# The main python routine implemented into RP Pico W, responsible for running the main user interface
+├── main.py	# The main python routine implemented into RP Pico W, responsible for running the main user interface
 └── README.md	# This file
 ```
 
