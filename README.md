@@ -1,5 +1,5 @@
 # BitArm
-This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a (Touch LCD display) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the claw. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible.
+This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a (Touch LCD display) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the claw. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible with that practical course's offering.
 
 (Insert image and description)
 
@@ -9,7 +9,7 @@ This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webc
 ```bash
 BitArm/
 ├── Arm/	# Contains everything that was uploaded to our ESP32 in order to control the robotic arm via BLE sent commands coded unto individual chars
-├── Firmware/	# Contains instructions on how to build a Firmware file onto RP Pico W already with custom drivers for the display's touch and LCD interfaces
+├── Firmware/	# Contains the firmware file and instructions on how to build a Firmware file for RP Pico W, already with custom drivers for the display's touch and LCD interfaces
 ├── Resources/	# All ilustrations used for this documentation
 ├── main.py	# The main python routine implemented into RP Pico W, responsible for running the main user interface
 └── README.md	# This file
@@ -42,9 +42,9 @@ Screws and Nuts:
 - Base
   - 4x M4 x 10mm Screws with Superb Thread
 
-Display monting acessories:
+Display wiring acessories:
 - 1x Protoboard (insert specs)
-- Set of jumpers (insert name and quantity
+- Set of jumpers (insert name and quantity)
 - 1x 10k resistor for pull-up
 
 ## I have everything ready, how can I run this project?
@@ -80,4 +80,4 @@ Display monting acessories:
 8. Long pressing the "Fechar" button ends the execution, shutting everything down. For running again, reset the RP, remove power from the ESP and go back to step 5.
 
 ## Final considerations
-Feel free to use our project as a starting point for yours! We took heavy inspiration from [iwatake](https://github.com/iwatake2222)'s [pico-mnist](https://github.com/iwatake2222/pico-mnist) project for building the drivers for the Touch LCD display and also from (Insert project inspiration for arm). So don't forget to credit us if this project was useful for you in any way!
+Feel free to use our project as a starting point for yours! We took heavy inspiration from [iwatake](https://github.com/iwatake2222)'s [pico-mnist](https://github.com/iwatake2222/pico-mnist) project for building the drivers for the Touch LCD display and also from (Insert project inspiration for arm) for the arm and claw designs. So don't forget to credit us if this project was useful for you in any way!
