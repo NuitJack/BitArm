@@ -27,9 +27,11 @@ Main set of components:
 - 3x MG90S Horn
 - 1x SG90 motor (claw)
 - 1x SG90 Horn
+
 Arm Structure:
 - Structure made of PLA filament with 3D printing
 - 1x 608Zz bearing
+
 Screws and Nuts:
 - MG90S Motor Mounting
   - 6x M2 X 20mm Flat Head Screws 
@@ -39,6 +41,7 @@ Screws and Nuts:
   - 8x Nuts for M2.4 Screws
 - Base
   - 4x M4 x 10mm Screws with Superb Thread
+
 Display monting acessories:
 - 1x Protoboard (insert specs)
 - Set of jumpers (insert name and quantity
