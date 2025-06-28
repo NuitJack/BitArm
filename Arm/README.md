@@ -8,7 +8,7 @@ Commands are sent via **Bluetooth Low Energy (BLE)** from a Raspberry Pi Pico W 
 
 The ESP32 is mounted on a **custom shield**, which distributes power and simplifies wiring. This folder includes the control firmware (`arm_controller.c`) and mechanical design files (in the `Structure/` subfolder).
 
-![BitArm – Full View](Resources/bitarm_full.jpg)
+![BitArm – Full View](../Resources/Arm/bitarm_full.jpg)
 *BitArm – Fully assembled robotic arm in idle position*
 
 ---
@@ -30,13 +30,13 @@ Arm/
 
 | Component               | Quantity | Description                                | Image |
 |-------------------------|----------|--------------------------------------------|-------|
-| ESP32-DevKitC-32        | 1x       | With CH340C USB-Serial converter            | ![ESP32](Resources/esp32.jpg) |
-| ESP32S NodeMCU Expander | 1x       | 38-pin expander (USB-C + Micro USB)        | ![Expander](Resources/expander.jpg) |
-| MG90S Servo Motor       | 3x       | Metal gear servos (base, shoulder, elbow)  | ![MG90S](Resources/mg90s.jpg) |
-| SG90 Servo Motor        | 1x       | Claw actuation                             | ![SG90](Resources/sg90.jpg) |
-| Power Bank              | 1x       | 20000mAh / 22.5W, 5V output                 | ![PowerBank](Resources/powerbank.jpg) |
-| USB-C Cable             | 1x       | USB to USB-C for power                     | ![USB-C](Resources/usb-c.jpg) |
-| Custom Shield           | 1x       | ESP32 interface with power distribution     | ![Shield](Resources/shield.jpg) |
+| ESP32-DevKitC-32        | 1x       | With CH340C USB-Serial converter            | ![ESP32](../Resources/Arm/esp32.jpg) |
+| ESP32S NodeMCU Expander | 1x       | 38-pin expander (USB-C + Micro USB)        | ![Expander](../Resources/Arm/expander.jpg) |
+| MG90S Servo Motor       | 3x       | Metal gear servos (base, shoulder, elbow)  | ![MG90S](../Resources/Arm/mg90s.jpg) |
+| SG90 Servo Motor        | 1x       | Claw actuation                             | ![SG90](../Resources/Arm/sg90.jpg) |
+| Power Bank              | 1x       | 20000mAh / 22.5W, 5V output                 | ![PowerBank](../Resources/Arm/powerbank.jpg) |
+| USB-C Cable             | 1x       | USB to USB-C for power                     | ![USB-C](../Resources/Arm/usb-c.jpg) |
+| Custom Shield           | 1x       | ESP32 interface with power distribution     | ![Shield](../Resources/Arm/shield.jpg) |
 
 ---
 
@@ -44,8 +44,8 @@ Arm/
 
 | Component     | Quantity | Description                    | Image |
 |---------------|----------|--------------------------------|-------|
-| Printed Frame | 1x       | 3D-printed in PLA              | ![Arm Printed](Resources/arm_structure.jpg) |
-| 608Zz Bearing | 1x       | For base axis smooth rotation | ![Bearing](Resources/bearing.jpg) |
+| Printed Frame | 1x       | 3D-printed in PLA              | ![Arm Printed](../Resources/Arm/arm_structure.jpg) |
+| 608Zz Bearing | 1x       | For base axis smooth rotation | ![Bearing](../Resources/Arm/bearing.jpg) |
 
 ---
 
