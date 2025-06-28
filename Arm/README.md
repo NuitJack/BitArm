@@ -30,13 +30,12 @@ Arm/
 
 | Component               | Quantity | Description                                | Image |
 |-------------------------|----------|--------------------------------------------|-------|
-| ESP32-DevKitC-32        | 1x       | With CH340C USB-Serial converter            | ![ESP32](../Resources/Arm_IMG/esp32.jpg) |
-| ESP32S NodeMCU Expander | 1x       | 38-pin expander (USB-C + Micro USB)        | ![Expander](../Resources/Arm_IMG/expander.jpg) |
-| MG90S Servo Motor       | 3x       | Metal gear servos (base, shoulder, elbow)  | ![MG90S](../Resources/Arm_IMG/mg90s.jpg) |
-| SG90 Servo Motor        | 1x       | Claw actuation                             | ![SG90](../Resources/Arm_IMG/sg90.jpg) |
-| Power Bank              | 1x       | 20000mAh / 22.5W, 5V output                 | ![PowerBank](../Resources/Arm_IMG/powerbank.jpg) |
-| USB-C Cable             | 1x       | USB to USB-C for power                     | ![USB-C](../Resources/Arm_IMG/usb-c.jpg) |
-| Custom Shield           | 1x       | ESP32 interface with power distribution     | ![Shield](../Resources/Arm_IMG/shield.jpg) |
+| ESP32-DevKitC-32        | 1x       | With CH340C USB-Serial converter            | <img src="../Resources/Arm_IMG/esp32.jpg" alt="ESP32" width="200"/> |
+| ESP32S NodeMCU Shield   | 1x       | 30 pin ESP32 interface with power distribution        | <img src="../Resources/Arm_IMG/expander.jpg" alt="EXPANDER" width="200"/> |
+| MG90S Servo Motor       | 3x       | Metal gear servos (base, shoulder, elbow)  | <img src="../Resources/Arm_IMG/mg90s.jpg" alt="MG90S" width="200"/> |
+| SG90 Servo Motor        | 1x       | Claw actuation                             | <img src="../Resources/Arm_IMG/sg90.jpg" alt="SG90" width="200"/> |
+| Power Bank              | 1x       | 20000mAh / 22.5W, 5V output                 | <img src="../Resources/Arm_IMG/powerbank.jpg" alt="POWERBANK" width="200"/> |
+| USB-A to USB-C Cable    | 1x       | USB-A to USB-C for power                     | <img src="../Resources/Arm_IMG/USB.jpg" alt="USB" width="200"/> |
 
 ---
 
@@ -44,8 +43,8 @@ Arm/
 
 | Component     | Quantity | Description                    | Image |
 |---------------|----------|--------------------------------|-------|
-| Printed Frame | 1x       | 3D-printed in PLA              | ![Arm Printed](../Resources/Arm_IMG/arm_structure.jpg) |
-| 608Zz Bearing | 1x       | For base axis smooth rotation | ![Bearing](../Resources/Arm_IMG/bearing.jpg) |
+| Printed Frame | 1x       | 3D-printed in PLA              | <img src="../Resources/Arm_IMG/PLA.jpg" alt="PLA" width="200"/> |
+| 608Zz Bearing | 1x       | For base axis smooth rotation | <img src="../Resources/Arm_IMG/bearing.jpg" alt="BEARING" width="200"/> |
 
 ---
 
