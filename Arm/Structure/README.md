@@ -8,7 +8,7 @@ The design consists of **seven core components**: base motor mount, bearing supp
 
 ## Assembled Overview
 
-![Full Arm Assembled](../../Resources/ARM_IMG/bitarm_assembled.jpg)
+![Full Arm Assembled](../../Resources/ARM_IMG/bitarm_assemble.png)
 *Fully assembled BitArm exemple, with all printed modules connected*
 
 ---
@@ -27,7 +27,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Has a cable passthrough for neat wiring.
 - Mounting holes at the bottom allow it to be fixed to a heavier base using **M2.5 screws**.
 
-![Base Motor Cover](../../Resources/ARM_IMG/base_motor_cover.jpg)
+![Base Motor Cover](../../Resources/ARM_IMG/base_motor_cover.png)
 
 ---
 
@@ -38,7 +38,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Ensures the **bearing is centered on the motor shaft**.
 - Prevents external contact between the bearing and static structure.
 
-![Bearing Support](../../Resources/ARM_IMG/bearing_support.jpg)
+![Bearing Support](../../Resources/ARM_IMG/bearing_support.png)
 
 ---
 
@@ -49,7 +49,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Supports the shoulder structure (and by extent the whole arm).
 - Includes a **rectangular cutout** to insert the next joint (shoulder).
 
-![Rotatory Base](../../Resources/ARM_IMG/rotatory_base.jpg)
+![Rotatory Base](../../Resources/ARM_IMG/rotatory_base.png)
 
 ---
 
@@ -59,7 +59,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Mounts the **second MG90S servo** (Upper Arm movement).
 - Fixes onto the rotatory base and acts as the **first articulation joint**.
 
-![Shoulder](../../Resources/ARM_IMG/shoulder.jpg)
+![Shoulder](../../Resources/ARM_IMG/shoulder.png)
 
 ---
 
@@ -69,7 +69,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Connected to the shoulder via servo horn.
 - Includes mount for the **third MG90S servo**, which actuates the elbow, articulating the Forearm.
 
-![Forearm](../../Resources/ARM_IMG/upperarm.jpg)
+![Forearm](../../Resources/ARM_IMG/upperarm.png)
 
 ---
 
@@ -80,7 +80,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Holds the **SG90 servo** used to open and close the claw.
 - Features a back slot to insert and fasten the claw.
 
-![Elbow Arm](../../Resources/ARM_IMG/forearm.jpg)
+![Elbow Arm](../../Resources/ARM_IMG/forearm.png)
 
 ---
 
@@ -91,7 +91,7 @@ Each printed piece is described below with its purpose, assembly considerations,
 - Connected to the **SG90 servo**, it operates using a wire or string pulled by the servo horn to open and close.
 - Includes two rear holes for mounting — can be clipped into the elbow or fixed with screws if needed.
 
-![Claw](../../Resources/ARM_IMG/claw.jpg)
+![Claw](../../Resources/ARM_IMG/claw.png)
 
 
 ## Printing and Assembly Notes
