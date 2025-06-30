@@ -1,9 +1,11 @@
 # BitArm
 This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a (Touch LCD display) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the claw. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible with that practical course's offering.
 
-(Insert image and description)
 
-(Insert gif and description)
+<p align="center">
+  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmDemo.gif" alt="GIF with quick visual demo of the project" width="500">
+  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmOverview.jpeg" alt="Picture of the project" width="500">
+</p>
 
 ## Directory tree
 ```bash
@@ -70,8 +72,6 @@ Display wiring acessories:
 | CS             | GP17    | Display Chip Select   |
 | GND            | GND     | Ground                |
 | VCC            | 3V3     | Power Supply          |
-
-(Add image with connections)
 
 4. (Instructions regarding ESP)
 5. Turn on both ESP and RP sides and press the "A" button for starting the BLE connection process.
