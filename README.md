@@ -2,9 +2,10 @@
 This project uses a RP Pico W shielded by the [BitDogLab](https://bitdoglab.webcontent.website/) team's PCB to recieve user inputs through a 2.4-inch SPI TFT display with 240x320 resolution, ILI9341 controller, and resistive touchscreen (XPT2046) to control the movements of a 3D printed Robotic Arm via BLE comunication with an ESP32-DevKitC-32, controlling three MG90S metal gear servos for the arm's degrees of freedom and one SG90 servo motor for the claw. This was developed during the first semester of 2025 as a collaborative project for Unicamp's practical course on embedded systems projects at [FEEC](https://www.fee.unicamp.br/). In this repository you will find everything we used to bring this project into reality. We thank both the support and instruction of the course's professor, [Dr. Fabiano Fruett](http://lattes.cnpq.br/4840178785453194), whose vision made this and many other great projects' development possible with that practical course's offering.
 
 <p align="center">
-  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmDemo.gif" alt="GIF with quick visual demo of the project" width="500">
-  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmOverview.jpeg" alt="Picture of the project" width="500">
+  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmDemo.gif" alt="GIF with quick visual demo of the project" width="45%">
+  <img src="https://github.com/NuitJack/BitArm/blob/main/Resources/BitArm_IMG/BitArmOverview.jpeg" alt="Picture of the project" width="45%">
 </p>
+
 > Follow [this Google Drive link](https://drive.google.com/file/d/1D46ARnqftNCbvr9nV22uoLGM8FUA34ID/view?usp=sharing) to see this demo in better resolution and detail
 
 ## Directory tree
