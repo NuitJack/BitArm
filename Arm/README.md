@@ -111,7 +111,7 @@ Servo transitions are performed smoothly to reduce mechanical stress and improve
 
 ## Final Considerations
 
-This robotic arm structure was inspired by the open-source design shared at [Thingiverse – Robotic Arm (MG90S based)](https://www.thingiverse.com/thing:1684471). While the **claw mechanism** was directly adapted from that model — with minor adjustments for fit and integration — the rest of the structure was designed in [Thingiverse – Robotic Arm (MG90S based)](https://www.thingiverse.com/thing:1684471), using the former Thingiverse project as a reference to design pieces that suit the specific goals and constraints of this project.
+This robotic arm structure was inspired by the open-source design shared at [Thingiverse – Robotic Arm (MG90S based)](https://www.thingiverse.com/thing:1684471). While the **claw mechanism** was directly adapted from that model — with minor adjustments for fit and integration — the rest of the structure was designed in  Tinkercad, using the former [Thingiverse](https://www.thingiverse.com/thing:1684471) project as a reference to design pieces that suit the specific goals and constraints of this project.
 
 One of the key structural improvements made in this design was the addition of a **608Zz ball bearing at the base**. This enhancement significantly reduces the mechanical load on the base servo motor, providing:
 
