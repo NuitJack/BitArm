@@ -8,8 +8,19 @@ Commands are sent via **Bluetooth Low Energy (BLE)** from a Raspberry Pi Pico W 
 
 The ESP32 is mounted on a **custom shield**, which distributes power and simplifies wiring. This folder includes the control firmware (`arm_controller.c`) and mechanical design files (in the `Structure/` subfolder).
 
-![BitArm – Full View](../Resources/Arm_IMG/bitarm_full.jpg)
-*BitArm – Fully assembled robotic arm in idle position*
+<div align="center">
+  <table>
+    <tr>
+      <td>
+        <img src="../Resources/Arm_IMG/bitarm_full.jpg" alt="BitArm" width="400"/>
+      </td>
+      <td>
+        <img src="../Resources/Arm_IMG/bitarm_full2.jpg" alt="BitArm Active" width="400"/>
+      </td>
+    </tr>
+  </table>
+  <p><em>BitArm – Fully assembled robotic arm in idle position</em></p>
+</div>
 
 ---
 
@@ -43,7 +54,7 @@ Arm/
 
 | Component     | Quantity | Description                    | Image |
 |---------------|----------|--------------------------------|-------|
-| Printed Frame | 1x       | 3D-printed in PLA              | <img src="../Resources/Arm_IMG/PLA.jpg" alt="PLA" width="200"/> |
+| Printed Frame | 1x       | 3D-printed in PLA              | <img src="../Resources/Arm_IMG/PLA.png" alt="PLA" width="200"/> |
 | 608Zz Bearing | 1x       | For base axis smooth rotation | <img src="../Resources/Arm_IMG/bearing.jpg" alt="BEARING" width="200"/> |
 
 ---
