@@ -58,6 +58,8 @@ Display wiring acessories:
 2. Upload the Firmware file (provided or built locally) to the RP Pico W. You can follow [BitDogLab's tutorial](https://github.com/BitDogLab/BitDogLab/tree/main/Firmware) for this step. We strongly recomend the usage of [Thonny IDE](https://thonny.org/), given it's ease of use. [This tutorial](https://bitdoglab.webcontent.website/cursos/introducao-pratica-a-bitdoglab/aulas/usando-o-ide-thonny-para-desenvolvimento/) (in portuguese) teaches how to setup the IDE and also upload the firmware file.
 3. Connect the Touch LCD display to the avaliable RP pins according to the table bellow. We also provide an image on how it looks like when using a protoboard.
 
+<div align="center">
+  
 | Function       | RP Pin  | Description           |
 |----------------|---------|-----------------------|
 | T_IRQ          | GND     | Touch Interrupt       |
@@ -74,6 +76,8 @@ Display wiring acessories:
 | CS             | GP17    | Display Chip Select   |
 | GND            | GND     | Ground                |
 | VCC            | 3V3     | Power Supply          |
+
+</div>
 
 4. Upload the code present in the "Arm" directory, following its README, and connect the powerbank to start anouncing the BLE.
 5. Turn on both ESP and RP sides and press the "A" button for starting the BLE connection process.
